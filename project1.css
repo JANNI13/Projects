@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+*{
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+}
+
+.login-container{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.login-container input{
+    border: 1px solid #00a2d0;
+    background-color: antiquewhite;
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+}
+
+input::placeholder{
+    font-size: 20px;
+}
+
+
+.login-container button{
+    position: absolute;
+    height: 50px ;
+    width: 150px;
+    font-size: 20px;
+    left: 80px;
+    background: linear-gradient(to right, #55c1df, #065f77);
+    border: none;
+    cursor: pointer;
+}
+
+h1{
+    position: absolute;
+    left: 47%;
+    text-decoration: underline;
+    color: black;
+}
